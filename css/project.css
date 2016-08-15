@@ -1,0 +1,210 @@
+/*
+#hero {
+  height: 80vh;
+  background: url(".|||||||||||||||||||||||./img_7448.jpg") ;
+  background-size: cover;
+  padding-top: 20px;
+}*/
+* {
+	margin: 0;
+	width: auto;
+}
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 37px;
+	line-height: 1.5;
+	max-width: 1500px;
+}
+p  	{
+	margin: 0 0 1.5em 0;
+
+}
+.button {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: pink;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: .5em;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .2);
+  border-radius: .25em;
+}
+#only {
+  font-family: fantasy;
+  font-weight: bold;
+}
+header {
+  background: black;
+  color: palevioletred;
+  overflow: hidden;
+  border-bottom: 4px dotted purple;
+  padding: 0 3%;
+  position: fixed;
+ /* right: 50px;
+  left: 50px;
+  */
+}
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+h1 {
+  line-height: 1;
+  color: yellow;
+  font-family: "Merriweather", serif;
+  font-size: 1.5em;
+  margin: .75em 0 0 0;
+}
+h2 {
+  font-weight: bold;
+  font-family: fantasy;
+  text-align: center;
+  color: purple;
+  font-size: 1.0em;
+}
+h3  {
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+h4 {
+  font-size: .5em;
+  font-family: fantasy;
+}
+nav {
+  float: right;
+  width: 55%;
+  text-align: right;
+}
+
+
+
+.banner {
+    background: url("../images/img_7466.jpg") center center no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    padding: 3%;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .75);
+}
+
+.you {
+  background: url("../images/img_4014.jpg") center center no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    padding: 3%;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .75);
+}
+.us {
+  background: url("../images/img_5811.jpg") center center no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    padding: 3%;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .75);
+}
+.rate {
+  background: url("../images/img_3677.jpg") center center no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    padding: 3%;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .75);
+}
+}
+
+nav #innernav a {
+  padding: 0 .3em;
+}
+
+nav #innernav a:hover {
+  color: yellow;
+}
+
+nav #innernav a.active {
+  background: #666;
+}
+
+nav #innernav strong {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+nav a#hamburger {
+  display: none;
+  padding: .75em;
+}
+
+.tagline {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  margin: 0;
+  padding: 1em 3%;
+  font-size: 1.25em;
+  line-height: 1;
+  font-style: italic;
+  background: #C6C6C6;
+  border-top: 1px solid #AAA;
+  clear: both;
+}
+.blurb {
+  background: rgba(255, 255, 255, .8);
+  width: 34%;
+  margin: 0 auto;
+  padding: 4%;
+  float: right;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+}
+.blurb h2 {
+  text-align: left;
+}
+
+.callouts {
+  background: #EEE;
+  overflow: hidden;
+  padding: 2% 0;
+  clear:both;
+}
+.callout {
+  float: left;
+  width: 33.3333%;
+  padding: 2% 3%;
+  box-sizing: border-box;
+  border-right: 1px solid rgb(200, 200, 200);
+}
+.fixtoilet {
+  background-color: pink;
+}
+footer {
+  font-size: .5em;
+  background: black;
+  color: white;
+  padding: 2% 3%;
+}
+footer h4 {
+  font-family: italic;
+  font-size: .8em;
+  float: right;
+}
+.callout p{
+  font-size: .6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
